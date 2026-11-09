@@ -1,4 +1,5 @@
-
+import sklearn
+import hashlib
 from pathlib import Path
 import joblib
 import numpy as np
@@ -14,6 +15,21 @@ st.set_page_config(
     layout="wide"
 )
 
+st.subheader("Deployment Diagnostics")
+
+st.write("Scikit-learn version:", sklearn.__version__)
+st.write("Joblib version:", joblib.__version__)
+st.write("Model path:", str(MODEL_PATH))
+st.write("Model exists:", MODEL_PATH.exists())
+
+if MODEL_PATH.exists():
+    st.write("Model size:", MODEL_PATH.stat().st_size, "bytes")
+
+    model_hash = hashlib.sha256(
+        MODEL_PATH.read_bytes()
+    ).hexdigest()
+
+    st.write("Model SHA256:", model_hash)
 @st.cache_resource
 def load_model():
     return joblib.load(MODEL_PATH)

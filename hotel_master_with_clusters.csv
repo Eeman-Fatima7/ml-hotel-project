@@ -1,0 +1,25 @@
+guest_id,country,loyalty_tier,total_bookings,completed_bookings,cancelled_bookings,no_show_bookings,completed_nights,room_revenue,service_spend,avg_nightly_rate,avg_party_size,avg_room_capacity,breakfast_stays,room_type_variety,avg_services_per_stay,kmeans_cluster,dbscan_cluster
+G001,United Kingdom,Standard,1,0,0,1,0,0,0,,,,0,0,,1,0
+G002,Pakistan,Silver,1,0,1,0,0,0,0,,,,0,0,,1,0
+G003,Canada,Standard,4,3,1,0,15,398300,10200,29566.666666666668,1.6666666666666667,3.0,1,3,1.3333333333333333,0,-1
+G004,Türkiye,Silver,1,1,0,0,5,68875,7800,13775.0,1.0,,0,1,2.0,1,0
+G005,United Kingdom,Standard,1,0,1,0,0,0,0,,,2.0,0,0,,1,0
+G006,Malaysia,Platinum,0,0,0,0,0,0,0,,,,0,0,,1,0
+G007,UAE,Silver,0,0,0,0,0,0,0,,,,0,0,,1,0
+G008,United Kingdom,Standard,1,1,0,0,5,136500,4300,27300.0,2.0,,0,1,2.0,1,0
+G009,Pakistan,Silver,2,2,0,0,8,183225,7300,21412.5,1.5,4.0,1,2,1.0,0,-1
+G010,Pakistan,Silver,1,1,0,0,2,19950,5000,9975.0,1.0,2.0,0,1,1.0,1,0
+G011,Pakistan,Standard,2,1,1,0,5,68875,13300,13775.0,2.0,,0,1,3.0,1,0
+G012,Canada,Standard,2,1,0,0,3,144000,5000,48000.0,2.0,,0,1,1.0,1,0
+G013,Pakistan,Standard,6,5,0,0,21,438250,34200,17395.0,2.8,2.0,0,2,1.4,0,1
+G014,United Kingdom,Standard,3,2,0,0,10,131250,0,12600.0,2.0,2.0,0,2,0.0,1,0
+G015,Pakistan,Standard,2,2,0,0,6,59400,1600,12600.0,2.0,,0,2,0.5,1,0
+G016,United Kingdom,Standard,1,1,0,0,1,15950,13000,15950.0,3.0,,0,1,2.0,1,0
+G017,Türkiye,Silver,2,1,1,0,3,43500,0,14500.0,2.0,2.0,0,1,0.0,1,0
+G018,United Kingdom,Gold,2,1,0,1,4,34200,9700,8550.0,2.0,,0,1,2.0,1,0
+G019,United Kingdom,Silver,2,1,0,1,6,54150,3500,9025.0,2.0,3.0,1,1,1.0,1,0
+G020,Pakistan,Gold,5,2,1,1,13,129675,11000,9975.0,1.0,3.0,0,1,1.5,0,-1
+G021,Saudi Arabia,Platinum,2,1,0,1,1,26000,7700,26000.0,2.0,4.0,1,1,2.0,1,0
+G022,UAE,Standard,1,1,0,0,4,36100,500,9025.0,2.0,,0,1,1.0,1,0
+G023,Qatar,Silver,6,5,0,0,17,217075,20300,13195.0,1.8,2.0,0,3,1.4,0,1
+G024,Türkiye,Silver,4,1,2,0,6,59850,0,9975.0,3.0,2.0,0,1,0.0,1,0
